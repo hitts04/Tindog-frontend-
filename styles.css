@@ -1,0 +1,399 @@
+/* ------ General properties ------ */
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.m0{
+  margin: 0;
+}
+
+/* ------ Top Section ------ */
+
+/* ------ Navigation bar ------ */
+
+.Top{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.Top-bar{
+  text-align: center;
+  padding: 4vw 0;
+}
+
+.logo{
+  display: inline-block;
+  font-family: "Ubuntu";
+  font-size: 1.8vw;
+  padding-left: 8vw;
+  text-align: left;
+  width: 32vw;
+}
+
+.links{
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 1.2vw;
+  color: rgba(255,255,255,.5);
+  padding-right: 8vw;
+  text-align: right;
+  width: 32vw;
+}
+
+.links a{
+  font-size: 1.2vw;
+  padding: 0 1vw;
+}
+
+.links a:hover{
+  color: #fff;
+}
+
+/* ------ Header content ------ */
+
+.Top-content{
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+
+.Top-image{
+  display: inline-block;
+  position: relative;
+  width: 40vw;
+}
+
+.Top-image img{
+  width: 55%;
+  position: absolute;
+  right: 14vw;
+  transform: rotate(20deg);
+}
+
+.Top-text{
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 3.2vw;
+  line-height: 1.5;
+  padding-left: 8vw;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+  text-align: left;
+  vertical-align: top;
+  width: 32vw;
+}
+
+/* ---- Buttons ---- */
+
+.Dwnd-btn{
+  font-family: "Montserrat";
+  font-size: 1.35vw;
+  margin: 3vw 2vw 2vw 0;
+  padding: 0.8vw;
+}
+
+.Dwnd-btn-1{
+  background-color: #333;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 6%;
+  border-width: thin;
+  cursor: pointer;
+  color: #fff;
+}
+.Dwnd-btn-1:hover{
+  background-color: #111;
+}
+
+.Dwnd-btn-2{
+  background-color: transparent;
+  border-style: solid;
+  border-color: #fff;
+  border-width: thin;
+  border-radius: 6%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.Dwnd-btn-2:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/* ------ Features Section ------ */
+
+.Center{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features{
+  text-align: center;
+  padding: 10vw 8vw;
+  font-family: "Montserrat";
+}
+
+.icons{
+  color: #ef8172;
+  padding-bottom: 1vw;
+  font-size: 4.2vw;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+.feature-1{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.feature-2{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.feature-3{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.features h3,p{
+  padding: 0.5vw 0 0 0;
+  line-height: 1.5;
+}
+
+
+.features p{
+  font-size: 1.2vw;
+  margin: auto;
+  width: 60%;
+  color: #777;
+}
+
+.features h3{
+  font-size: 1.4vw;
+}
+
+/* ------ Testimonials Section ------ */
+
+.Testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #fff;
+  margin-top: 2vw;
+}
+
+.Testimonial-txt{
+  font-size: 2.5vw;
+  font-weight: 600;
+  width: 70%;
+  padding: 8vw 0 1vw 0;
+  margin: auto;
+}
+
+.Testimonial-img{
+  width: 70%;
+  margin: auto;
+}
+
+.Testimonial-img img{
+  vertical-align: middle;
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 1vw;
+}
+
+.Testimonial-img p{
+  display: inline;
+}
+
+/* ------ News logos ------- */
+.news{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3vw 0;
+  margin-bottom: 10vw;
+}
+
+.news-span{
+  display: inline-block;
+  text-align: center;
+  margin: 4vw 2vw;
+  width: 19vw;
+  height: auto;
+}
+
+/* ------  Plans Section ------ */
+
+/* --- Plans Heading --- */
+
+.Plans{
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.plans-head{
+  line-height: 2;
+  padding: 3vw 0;
+}
+
+.plans-head h2{
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.plans-head p{
+  font-size: 1.2vw;
+  color: #777;
+}
+
+/* --- Plans --- */
+
+.plan-1{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.plan-2{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.plan-3{
+  display: inline-block;
+  width: 26vw;
+  vertical-align: top;
+}
+
+.plan-card-top{
+  background-color: #eee;
+  font-size: 1.4vw;
+  padding: 1.5vw;
+}
+
+.plan-card-mid{
+  font-size: 2.2vw;
+  padding: 2vw;
+}
+
+.plan-card-bottom{
+  padding: 1vw;
+}
+
+.plan-card-bottom p{
+  line-height: 1.5;
+  padding: 1vw;
+  font-size: 1.2vw;
+  color: #777;
+}
+
+/* --- Sign Up Buttons --- */
+
+.sign-button{
+  width: 70%;
+  font-size: 1.6vw;
+  margin: 1vw;
+  border-style: solid;
+  border-width: thin;
+  border-color: #444;
+  border-radius: 10px;
+  padding: 0.6vw;
+  cursor: pointer;
+}
+
+.sign-button-1{
+  background-color: transparent;
+}
+.sign-button-1:hover{
+  background-color: #353535;
+  color: #fff;
+}
+
+.sign-button-2n3{
+  background-color: #343434;
+  color: #fff;
+}
+
+.sign-button-2n3:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/* -- Border -- */
+.plan-border{
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc;
+  margin: auto 1.8vw;
+
+}
+
+/* ------ Top Section ------ */
+
+.Bottom{
+  text-align: center;
+  background-color: #ff4c68;
+  font-size: 3.5vw;
+  font-weight: 500;
+  color: #fff;
+  padding: 5vw /*80 10vw 0*/;
+  margin-top: 12vw;
+}
+
+.Bottom p{
+  padding: 2vw;
+}
+
+.Bottom .Dwnd-btn-2{
+  background-color: #eee;
+  border-style: solid;
+  border-color: #eee;
+  border-width: thin;
+  border-radius: 6%;
+  cursor: pointer;
+  color: #000;
+}
+
+.Bottom .Dwnd-btn-2:hover{
+  background-color: #fff;
+  border-style: solid;
+  border-color: #eee;
+  border-width: thin;
+  border-radius: 6%;
+  cursor: pointer;
+  color: #000;
+}
+
+/* ------ Footer ------ */
+
+footer{
+  text-align: center;
+  padding: 8vw;
+}
+
+.logos{
+  padding: 0.5vw;
+}
+
+footer p{
+  margin: 1vw;
+  font-family: "Montserrat";
+  color: #777;
+}
